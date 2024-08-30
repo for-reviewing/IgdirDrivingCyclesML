@@ -1,0 +1,111 @@
+IgdirDrivingCyclesML/
+# Root of the project
+├── data/
+│    
+│   ├── processed/
+│   │    
+│   │   ├── combined_data.csv
+│   │   ├── cycle_lengths.txt
+│   │   └── features_data.csv
+│   └── raw/
+│        
+│       ├── D01.txt
+│       ├── D02.txt
+│       ├── D03.txt
+│       ├── D04.txt
+│       ├── D05.txt
+│       ├── D06.txt
+│       ├── D07.txt
+│       ├── D08.txt
+│       ├── D09.txt
+│       ├── D10.txt
+│       ├── D11.txt
+│       ├── D12.txt
+│       ├── D13.txt
+│       ├── D14.txt
+│       ├── D15.txt
+│       ├── D16.txt
+│       ├── D17.txt
+│       ├── D18.txt
+│       ├── D19.txt
+│       └── segment_sizes.mat
+├── docs/
+│    
+├── models/
+│    
+│   └── xgboost_model.pkl
+├── notebooks/
+│    
+│   └── driving_cycle.ipynb
+├── references/
+│    
+│   ├── create_project_structure.py
+│   └── project_structure.txt
+├── reports/
+│    
+│   ├── figures/
+│   │    
+│   │   ├── all_predictions__actual_vs_predicted_with_split.eps
+│   │   ├── all_predictions__actual_vs_predicted_with_split.png
+│   │   ├── speed_vs_acceleration.eps
+│   │   ├── speed_vs_acceleration.png
+│   │   ├── test__actual_vs_predicted_speed.eps
+│   │   ├── test__actual_vs_predicted_speed.png
+│   │   ├── test__residuals.eps
+│   │   ├── test__residuals.png
+│   │   ├── test_set__actual_vs_predicted_speed.eps
+│   │   ├── test_set__actual_vs_predicted_speed.png
+│   │   ├── test_set__residuals.eps
+│   │   ├── test_set__residuals.png
+│   │   ├── time_vs_speed_d01.eps
+│   │   ├── time_vs_speed_d01.png
+│   │   ├── top_5_feature_importance.eps
+│   │   ├── top_5_feature_importance.png
+│   │   ├── train_val_test_split.eps
+│   │   ├── train_val_test_split.png
+│   │   ├── validation__actual_vs_predicted_speed.eps
+│   │   ├── validation__actual_vs_predicted_speed.png
+│   │   ├── validation__residuals.eps
+│   │   ├── validation__residuals.png
+│   │   ├── validation_rmse.eps
+│   │   └── validation_rmse.png
+│   ├── predictions.csv
+│   ├── test_metrics.txt
+│   ├── training_output.txt
+│   ├── validation_metrics.txt
+│   └── validation_rmse.txt
+├── src/
+│    
+│   ├── __pycache__/
+│   │    
+│   │   └── __init__.cpython-312.pyc
+│   ├── data/
+│   │    
+│   │   ├── __init__.py
+│   │   ├── del_specific_files.py
+│   │   └── make_dataset.py
+│   ├── features/
+│   │    
+│   │   ├── __init__.py
+│   │   └── build_features.py
+│   ├── models/
+│   │    
+│   │   ├── __init__.py
+│   │   ├── manual_split_test.py
+│   │   ├── predict_model.py
+│   │   └── train_model.py
+│   ├── visualization/
+│   │    
+│   │   ├── __pycache__/
+│   │   │    
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── plot_settings.cpython-312.pyc
+│   │   │   └── visualize.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   ├── plot_settings.py
+│   │   └── visualize.py
+│   └── __init__.py
+├── README.md
+├── environment.yml
+├── requirements.txt
+└── setup.py
